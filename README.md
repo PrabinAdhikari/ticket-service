@@ -1,3 +1,4 @@
+
 # Ticket-Service
 
 # Author: Prabin Adhikari
@@ -22,6 +23,7 @@ These steps are required to be executed at root directory of project (where ***p
 
 1. Since it is high-demand performance venue, to avoid holding of same seat/s by multiple threads block level synchronization is used. 
 2. Two second hold time will be  observed while running TicketServiceImpl test. This time is used to test hold time expiration. 
+3. I was thinking to introduce a VenueServiceInterface but assuming this is an exercise having single venue I did not make that. 
 
 # Git-Hub related Note:
 1. I noticed my commits have two names *Prabin Adhikari* and *prabinadhikari24* 
